@@ -1,0 +1,79 @@
+.inner-footer {
+    width: 97%;
+    margin: auto;
+}
+.acc-cus {
+    font-size: 19px;
+    font-weight: bold;
+    color: #fe0000;
+}
+.sign-cus {
+    font-size: 14px;
+}
+.create-cus {
+    font-size: 14px;
+}
+.may-acc-cus {
+    margin-top: 9%;
+    line-height: 13px;
+}
+.about-testy-cus {
+    margin-top: 9%;
+        line-height: 13px;
+}
+.abt-testy-cus {
+    font-size: 19px;
+        font-weight: bold;
+        color: #fe0000;
+}
+.about-cus {
+    font-size: 14px;
+}
+.contact-cus {
+    font-size: 14px;
+}
+.privecy-cus {
+    font-size: 14px;
+}
+.policy-cus {
+    font-size: 14px;
+}
+.customer-ser-cus {
+    margin-top: 9%;
+        line-height: 13px;
+}
+.cstmr-ser-cus {
+    font-size: 19px;
+        font-weight: bold;
+        color: #fe0000;
+}
+.about-order-cus, .wish-cus, .comparison-cus {
+    font-size: 14px;
+}
+.contact-us-cus {
+    margin-top: 7%;  
+}
+.tasty-treat-con-cus {
+    font-size: 19px;
+        font-weight: bold;
+        color: #fe0000;
+}
+.dhaka-cus, .email-cus, .view-map-cus {
+    font-size: 14px;
+}
+.email-cus {
+    list-style: none;
+    text-decoration: none;
+}
+.view-map-cus {
+   display: block; 
+list-style: none;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    .inner-footer {
+        
+       
+        text-align: center;
+    }
+}

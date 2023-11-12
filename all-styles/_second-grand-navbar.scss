@@ -1,0 +1,159 @@
+
+
+.nav-sec-2 {
+    height: 48px;
+    background-color: green;
+    
+    
+}
+
+nav {
+    z-index: 2;
+}
+
+.nav-cus2 {
+    
+    background-color: #FE0000;
+    padding: 0 !important;
+    flex-wrap: nowrap !important;
+}
+
+.link-cus {
+    color: white !important;
+    padding: 12.5px !important;
+    font-size: 15px !important;
+}
+
+.drop-cus {
+    background-color: red !important;
+}
+
+
+.link-cus:hover {
+    background-color: hsl(0, 53%, 40%) !important
+    
+}
+
+/* top navbar searchbox  */
+.frm-cus2 {
+    width: 100% !important;
+    max-width: 600px ;
+    min-width: 130px;
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+    align-items: center;  
+}
+
+ .inpt-cus2 {
+    width: 100%;
+     height: 35px;
+     display: block;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 8px 40px 8px 20px;
+     border: none;
+     background-color: #ffbfbf;
+ }
+
+.inpt-cus2:focus {
+    outline: none;
+    background-color: #ffffff;
+}
+.btn-cus2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+/* top searchbox end */
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+/*এখানে search box কে line break থেকে বাচানো হয়েছে */
+.navbar-collapse-cus {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: red;
+}
+/*এখানে search box কে line break থেকে বাচানোর কোড শেষ হয়েছে*/
+ .frm-cus2 input[type="text"] {
+
+     border: none;
+     outline: none;
+ }
+   .clear-button2 {
+       position: absolute;
+       top: 50%;
+       right: 47px;
+       transform: translateY(-50%);
+       cursor: pointer;
+       opacity: 0;
+       transition: opacity 0.2s ease;
+   }
+ .frm-cus2 input[type="text"]:not(:placeholder-shown)+.clear-button2 {
+     opacity: 1;
+ }
+ .acc-icon2 {
+    color: #ffff !important;
+ }
+.vvbb {
+    /* Replace 'your-desired-color' with the color you want */
+   box-shadow: none !important;
+}
+.nav-tgl-icon-cus {
+    background-image: url("data: image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' %3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e") !important;
+    border: none !important;
+        outline: none !important;
+}
+ .nav-sec-2.sticky {
+     position: fixed;
+     top: 0px !important;
+     width: 100%;
+     transition: 1s !important;
+     z-index: 9999999999999999999999 !important;
+ }
+@media only screen and (max-width: 992px){
+    .nav-sec-2 {
+        height: 48px !important; //এখানে শুধু এইটা দিয়েই navbar all breakpoint এ same width সেট করেনি আমাকে inspect এ গিয়ে বুঝতে হয়েছিলো কোন ক্লাস এর জন্য অমন্টা হচ্ছিলো
+    }
+}
+@media only screen and (max-width: 792px){
+    .dropdown-menu[data-bs-popper] {
+        left: -25px !important;
+    } 
+}
+@media only screen and (max-width: 768px){
+    .cart-badge {
+        top: -6px;
+        font-size: 12px !important;
+        line-height: 12px !important;
+        text-align: center !important;
+    }
+    .nav-cus2{
+        height: 48px !important;
+    }
+}
+@media only screen and (max-width: 285px){
+    .acc-icon2 {
+        margin-right: 4px !important;
+    }
+    .frm-cus2 {
+        
+        margin-right: 5px !important;
+    }
+}
+@media only screen and (max-width: 262px) {
+    .nav-cus2 {
+        min-width: 262px !important;
+    }
+}

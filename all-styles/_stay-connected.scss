@@ -1,0 +1,84 @@
+.stay-connect-and-social-section {
+    width: 97%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2.7%;
+}
+
+// .content-11 {
+//     background-color: red;
+// }
+
+// .content-22 {
+//     background-color: black;
+// }
+
+.stay-con-section {
+    max-width: 650px;
+    min-height: 180px;
+    background-color: #f6f6f6;
+}
+
+.inpt-cus {
+    max-width: 390px;
+    min-width: 40px;
+}
+.btn-cus {
+    width: 20%;
+    background-color: #fe0000!important;
+    color: white !important;
+    font-size: 15px !important;
+}
+
+.stay-cus {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.pera-cus {
+    margin-top: -2%;
+    color: grey;
+}
+
+
+
+.get-social-section {
+    max-width: 650px;
+    min-height: 180px;
+    background-color: #f6f6f6;
+}
+
+
+.get-sicial-cus {
+    font-size: 24px;
+        font-weight: bold;
+        padding-top: 2%;
+}
+
+.in-group-cus {
+    margin-top: -2%;
+    color: grey;
+}
+
+.social-icon-1, .social-icon-2, .social-icon-3, .social-icon-4, .social-icon-5, .social-icon-6, .social-icon-7 {
+    padding-right: 8px;
+    
+}
+.social-icon-wrap {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .stay-con-section {
+        max-width: 738px !important;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .get-social-section {
+        max-width: 738px !important;
+        margin: auto;
+    }
+}

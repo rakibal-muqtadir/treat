@@ -1,0 +1,67 @@
+
+.first-food-item-promotion-section {
+    width: 100%;
+    height: 424px;
+    background-color: red;
+}
+.promo-pht-cus {
+    object-position: 0px 30px;
+    margin-top: -31px;
+    max-height: 30vh;
+}
+.card-text-cus1 {
+    font-size: 14px;
+    color: #797979;
+}
+.owl-dot span {
+    width: 13px !important;
+    height: 13px !important;
+}
+.col-auto {
+    padding-right: 10px !important;
+}
+.col-auto {
+    padding-left: 0px !important;
+}
+.food-inner  {
+    width: 95%;
+    margin: auto;
+}
+.card-cus {
+    border: 0 !important;
+    border-radius: 0 !important;
+    width: 100vw !important;
+    max-width: 308px !important;
+}
+.pc {
+    padding-top: 55px !important;
+    margin-left: -13px;
+}
+.fs {
+    margin-left: -10px;
+    font-size: 14px;
+}
+@media only screen and (max-width: 1314px){
+    .first-food-item-promotion-section{
+        height: fit-content !important;
+    }
+}
+@media only screen and (max-width: 978px){
+    .row-cus {
+            display: flex;
+            justify-content: center;
+        }
+    .pc {
+        text-align: center;
+    }
+        
+}
+@media only screen and (max-width: 979px){
+    .row-cus {
+        padding: 10px !important;
+    }
+    .col-cus-1 {
+        padding: 10px;
+    }
+}
+

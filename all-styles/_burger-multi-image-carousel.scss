@@ -1,0 +1,1055 @@
+
+/* এখানে এই section এর style প্রথম cake products carousel style same তাই copy করা হয়েছে শুধু all content container এর মদ্ধে রাখতে parent calss ধরে আলদা করে width set করা হহয়েছে */
+
+.burger-products-section {
+    width: 97%;
+    margin: auto;
+    margin-top: 1%;
+}
+/* @@@ 1st item @@@@@ */
+.card-img-1 {
+    width: 100%;
+    padding-top: 95%;
+    background-image: url('./all-images/burger-fastfood-images/47140.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/*add cart wishlit hover effect start */
+/* for first item of the carousel*/
+.wrapp {
+    display: none;
+}
+.ani {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-1:hover .ani,
+.wrapp {
+    opacity: 1;
+    display: block;
+}
+.card-cus-1 {
+    padding-bottom: 0 !important;
+}
+.card-cus-1:hover .icon1 {
+    transition-delay: 0.1s;
+}
+.card-cus-1:hover .icon2 {
+    transition-delay: 0.2s;
+}
+.icon0 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1 svg {
+    margin-top: 4px;
+}
+.icon2 svg {
+    margin-top: 6px;
+}
+.icon2 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* #add cart wishlit hover effect end */
+/* card item body text style start here */
+.card-body-first-text-wrap {
+    margin-left: -23px;
+}
+.vanila-1 {
+    font-size: 15px;
+    color: hsl(0, 0%, 36%);
+}
+.review-1 {
+    margin-left: 20px;
+    margin-top: -12px;
+    font-size: 14px;
+    color: hsl(0, 0%, 36%);
+}
+.star-icon-1 {
+    margin-top: -16px;
+}
+.in-stock-icon-1 {
+    margin-top: -15px;
+    margin-top: -18px;
+}
+.in-stock-1 {
+    margin-top: -14px;
+    margin-left: 20px;
+    color: #74c0fc;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.prev-price-1 {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #fe0000;
+}
+.current-price-1 {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.prev-price-wrap-1 {
+    margin-top: 73px;
+}
+
+.curren-price-wrap-1 {
+    margin-top: -6px;
+    margin-right: 80px;
+}
+.taka-icon-2 {
+    margin-left: -10px;
+}
+/* #card item body text style sends here */
+
+
+/*add cart icon with effect start */
+.con {
+    width: 121px;
+    height: 46px;
+    margin-top: -60px;
+    margin-right: -23px;
+    border-radius: 80px;
+    position: relative;
+}
+.cart-icon {
+    float: right;
+    margin-top: -29px;
+    margin-right: 4px;
+}
+.pseudo {
+    font-size: 16px !important;
+    margin-left: 35px;
+    margin-top: -2px;
+}
+.seudo-con {
+    margin-top: 12px;
+    visibility: hidden;
+}
+.pseudo::after {
+    content: '+';
+    font-size: 22px;
+    position: absolute;
+    bottom: 9px;
+    right: 52px;
+}
+.pseudo::before {
+    content: '-';
+    font-size: 30px;
+    position: absolute;
+    right: 93px;
+    bottom: 4px;
+}
+.cart-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fe0000;
+    border-radius: 50%;
+}
+.cart-icon svg {
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.parent-hovered {
+    outline: 1px solid hsl(0, 0%, 85%);
+}
+.cart-icon:hover .seudo-con {
+    visibility: visible;
+    color: red;
+}
+.parent-hovered-2 {
+    visibility: visible;
+}
+.seudo-con:hover {
+    visibility: visible;
+}
+.parent-hovered-3 {
+    outline: 1px solid hsl(0, 0%, 85%);
+}
+/* #add cart icon with effect end here */
+/*@@@@@@@@ second item  @@@@@@@ */
+.card-img-2 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Chicken_Patties_60gm.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* <<<<<<<2nd add cart+whishlist+quick view satrt>>>>>> */
+/*logical effect start here */
+.wrapp-2 {
+    display: none;
+}
+.ani-2 {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-2:hover .ani-2,
+.wrapp-2 {
+    opacity: 1;
+    display: block;
+}
+.card-cus-2 {
+    padding-bottom: 0 !important;
+}
+.card-cus-2:hover .icon1-2 {
+    transition-delay: 0.1s;
+}
+.card-cus-2:hover .icon2-3 {
+    transition-delay: 0.2s;
+}
+/* logical effect end here*/
+.icon0-1 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-2 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1 svg {
+    margin-top: 4px;
+}
+.icon2-3 svg {
+    margin-top: 6px;
+}
+.icon2-3 {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* <<<<<<<<<<2nd add cart+whishlist+quick view end>>>>>>>>>>>> */
+/*@@@@@ 3rd item @@@@@@@ */
+.card-img-3 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Cream_Donut_bun_4pcs.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-3rd {
+    display: none;
+}
+.ani-3rd {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-3:hover .ani-3rd,
+.wrapp-3rd {
+    opacity: 1;
+    display: block;
+}
+.card-cus-3 {
+    padding-bottom: 0 !important;
+}
+.card-cus-3:hover .icon-3rd {
+    transition-delay: 0.1s;
+}
+.card-cus-3:hover .icon2-3rd {
+    transition-delay: 0.2s;
+}
+.icon0-3rd {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-3rd {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-3rd svg {
+    margin-top: 4px;
+}
+.icon2-3rd svg {
+    margin-top: 6px;
+}
+.icon2-3rd {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/*@@@@@ 4th item @@@@@@@ */
+.card-img-4 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Fry_Roll.png');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-4th {
+    display: none;
+}
+.ani-4th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-4:hover .ani-4th,
+.wrapp-4th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-4 {
+    padding-bottom: 0 !important;
+}
+.card-cus-4:hover .icon1-4th {
+    transition-delay: 0.1s;
+}
+.card-cus-4:hover .icon2-4th {
+    transition-delay: 0.2s;
+}
+.icon0-4th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+
+.icon1-4th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-4th svg {
+    margin-top: 4px;
+
+}
+
+.icon2-4th svg {
+    margin-top: 6px;
+}
+.icon2-4th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@@ 5th item @@@@@@@@ */
+.card-img-5 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Irani_Roll.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-5th {
+    display: none;
+}
+.ani-5th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-5:hover .ani-5th,
+.wrapp-5th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-5 {
+    padding-bottom: 0 !important;
+}
+.card-cus-5:hover .icon1-5th {
+    transition-delay: 0.1s;
+}
+.card-cus-5:hover .icon2-5th {
+    transition-delay: 0.2s;
+}
+.icon0-5th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-5th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-5th svg {
+    margin-top: 4px;
+}
+.icon2-5th svg {
+    margin-top: 6px;
+}
+.icon2-5th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@@ item-6 @@@@@@@@ */
+.card-img-6 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Mexican_Club_Burger.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-6th {
+    display: none;
+}
+.ani-6th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-6:hover .ani-6th,
+.wrapp-6th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-6 {
+    padding-bottom: 0 !important;
+}
+.card-cus-6:hover .icon1-6th {
+    transition-delay: 0.1s;
+}
+.card-cus-6:hover .icon2-6th {
+    transition-delay: 0.2s;
+}
+.icon0-6th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-6th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-6th svg {
+    margin-top: 4px;
+}
+.icon2-6th svg {
+    margin-top: 6px;
+}
+.icon2-6th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/*@@@@@@@ item-7 @@@@@@@ */
+.card-img-7 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Mexican_Mini_Burger.png');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-7th {
+    display: none;
+}
+.ani-7th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-7:hover .ani-7th,
+.wrapp-7th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-7 {
+    padding-bottom: 0 !important;
+}
+.card-cus-7:hover .icon1-7th {
+    transition-delay: 0.1s;
+}
+.card-cus-7:hover .icon2-7th {
+    transition-delay: 0.2s;
+}
+.icon0-7th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-7th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-7th svg {
+    margin-top: 4px;
+}
+.icon2-7th svg {
+    margin-top: 6px;
+}
+.icon2-7th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@@@ item-8 @@@@@ */
+.card-img-8 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Mexican_Shawarma.png');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-8th {
+    display: none;
+}
+.ani-8th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-8:hover .ani-8th,
+.wrapp-8th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-8 {
+    padding-bottom: 0 !important;
+}
+.card-cus-8:hover .icon1-8th {
+    transition-delay: 0.1s;
+}
+.card-cus-8:hover .icon2-8th {
+    transition-delay: 0.2s;
+}
+.icon0-8th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-8th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-8th svg {
+    margin-top: 4px;
+}
+.icon2-8th svg {
+    margin-top: 6px;
+}
+.icon2-8th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@ item-9 @@@@@@@@ */
+.card-img-9 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Mexican_Sub_Sandwich.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-9th {
+    display: none;
+}
+.ani-9th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-9:hover .ani-9th,
+.wrapp-9th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-9 {
+    padding-bottom: 0 !important;
+}
+.card-cus-9:hover .icon1-9th {
+    transition-delay: 0.1s;
+}
+
+.card-cus-9:hover .icon2-9th {
+    transition-delay: 0.2s;
+}
+.icon0-9th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-9th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-9th svg {
+    margin-top: 4px;
+}
+.icon2-9th svg {
+    margin-top: 6px;
+}
+.icon2-9th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/*@@@@@@@ item 10 @@@@@@@ */
+.card-img-10 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Opera-Pastry.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-10th {
+    display: none;
+}
+.ani-10th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-10:hover .ani-10th,
+.wrapp-10th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-10 {
+    padding-bottom: 0 !important;
+}
+.card-cus-10:hover .icon1-10th {
+    transition-delay: 0.1s;
+}
+.card-cus-10:hover .icon2-10th {
+    transition-delay: 0.2s;
+}
+.icon0-10th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-10th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-10th svg {
+    margin-top: 4px;
+}
+.icon2-10th svg {
+    margin-top: 6px;
+}
+.icon2-10th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/*@@@@@@@@@ item-11 @@@@@@@@ */
+.card-img-11 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Patishapta_Pitha_100gm_±.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-11th {
+    display: none;
+
+}
+.ani-11th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-11:hover .ani-11th,
+.wrapp-11th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-11 {
+    padding-bottom: 0 !important;
+}
+.card-cus-11:hover .icon1-11th {
+    transition-delay: 0.1s;
+}
+.card-cus-11:hover .icon2-11th {
+    transition-delay: 0.2s;
+}
+.icon0-11th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-11th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-11th svg {
+    margin-top: 4px;
+}
+.icon2-11th svg {
+    margin-top: 6px;
+}
+.icon2-11th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@@@ item-12 @@@@@@@@ */
+.card-img-12 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Special_Cheese_Sandwich_180gm__dnes-ei.png');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-12th {
+    display: none;
+}
+.ani-12th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-12:hover .ani-12th,
+.wrapp-12th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-12 {
+    padding-bottom: 0 !important;
+}
+.card-cus-12:hover .icon1-12th {
+    transition-delay: 0.1s;
+}
+.card-cus-12:hover .icon2-12th {
+    transition-delay: 0.2s;
+}
+.icon0-12th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-12th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-12th svg {
+    margin-top: 4px;
+}
+.icon2-12th svg {
+    margin-top: 6px;
+}
+.icon2-12th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* @@@@@@ item-13 @@@@@@@ */
+.card-img-13 {
+    width: 100%;
+    background-image: url('./all-images/burger-fastfood-images/Special_Chicken_Bread.jpg');
+    padding-top: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrapp-13th {
+    display: none;
+}
+.ani-13th {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.card-cus-13:hover .ani-13th,
+.wrapp-13th {
+    opacity: 1;
+    display: block;
+}
+.card-cus-13 {
+    padding-bottom: 0 !important;
+}
+.card-cus-13:hover .icon1-13th {
+    transition-delay: 0.1s;
+}
+.card-cus-13:hover .icon2-13th {
+    transition-delay: 0.2s;
+}
+.icon0-13th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.icon1-13th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34px;
+    right: -15px;
+}
+.icon1-13th svg {
+    margin-top: 4px;
+}
+.icon2-13th svg {
+    margin-top: 6px;
+}
+.icon2-13th {
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.9);
+    width: 32px;
+    height: 36px;
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    right: -15px;
+}
+/* owl carousel nav button style start here */
+.card-cus-1,
+.card-cus-2,
+.card-cus-3,
+.card-cus-4,
+.card-cus-5,
+.card-cus-6,
+.card-cus-7,
+.card-cus-8,
+.card-cus-9,
+.card-cus-10,
+.card-cus-11,
+.card-cus-12,
+.card-cus-13 {
+    border-radius: 0 !important;
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 95%) !important;
+    border: none !important;
+    box-shadow: inset 0 0 0 1px rgba(111, 111, 111, 0.1), 0 0 0 1px #f3f3f3, 0 0 10px transparent;
+}
+.owl-next {
+    font-size: 0.8rem !important;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(0, 0%, 95%) !important;
+}
+#MyNavsThree {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+.owl-prev {
+    margin-right: 6px;
+    font-size: 0.8rem !important;
+    border: none;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 95%) !important;
+}
+.owl-next i {
+    padding: 5px !important;
+    font-weight: bolder !important;
+}
+.owl-prev i {
+    padding: 5px !important;
+    border-radius: 7px;
+}
+/* owl carousel nav button style ends here */
